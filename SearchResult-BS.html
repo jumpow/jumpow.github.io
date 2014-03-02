@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Auction Homepage</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- link rel="stylesheet" href="assets/css/bootstrap.min.css" -->
+    <link rel="stylesheet" href="jumpowBS.css">
+    <link rel="stylesheet" href="assets/css/datepicker3.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
+
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar navbar-inverse">
+  <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <!--Three horizontal bars for the collapsed mode -->
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="javascript:void(0);">ABC Auction</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <form class="navbar-form navbar-left" role="search" action="SearchResult-BS.html">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Enter product name">
+                </div>
+                <button type="submit" class="btn btn-default">Search</button><
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-question-sign"></span> Help</a>
+                </li>
+                <li><a href="javascript:void(0);"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+                <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping
+                    cart</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- / Navbar -->
+
+<div class="container">
+  <div class="row">
+    <ul class="list-unstyled">
+      <li class="col-sm-12">
+        <a href="indexBS.html">Home</a> > Search result
+      </li>
+      <li class="col-sm-4">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="field-header">Product</p>
+            </div>
+            <div class="col-md-6">
+              <INPUT TYPE="TEXT" VALUE="Product Title" class="bids-form-element">
+            </div>
+            <div class="col-md-12 col-sm-6">
+              <div class="form-group">
+                <SELECT>
+                  <OPTION>Category - 1</OPTION>
+                  <OPTION>Category - 2</OPTION>
+                  <OPTION>Category - 3</OPTION>
+                </SELECT>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="col-sm-6 col-md-4">
+        <p>Current Price</p>
+        <INPUT TYPE="TEXT" VALUE="$1000">
+        <INPUT TYPE="TEXT" VALUE="$1500">
+        <div style="form-group">
+              <input id="range" type="text" class='span2' value='' data-clider-min="1000" data-slider-max="2000"
+                     data-slider-step="1" data-slider-value="[1200,1500]"></div>
+      </li>
+      <li class="col-sm-6 col-md-4">
+        <div class="col-md-12">
+          <label for="DPck">Max Auction Close Date</label>
+          <div class="input-group date">
+              <input class="form-control" size="16" type="text" id="DPck">
+              <span class="input-group-addon">
+                  <span class="glyphicon glyphicon-calendar" id="DPct"></span>
+              </span>
+          </div>
+
+          <!-- INPUT TYPE="TEXT" VALUE="01/03/2014"><img src="assets/img/office_calendar.png"
+          alt="Date" -->
+          <div class="space-up">
+
+              <div class="number-of-bids">Number of Bids</div>&nbsp;
+              <SELECT>
+                  <OPTION>1</OPTION>
+                  <OPTION>2</OPTION>
+                  <OPTION>3</OPTION>
+              </SELECT>
+          </div>
+        </div>
+      </li>
+      <li class="col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4">
+          <button type="button" class="btn btn-default">Find now</button>
+      </li>
+    </ul>
+  </div>
+
+  <div class="row">
+    <!-- Featured Products list with thumbnails and description  -->
+    <ul class="list-unstyled">
+      <li class="col-sm-6">
+         <div class="col-md-4">
+           <a href="javascript:void(0)"><img src="assets/img/01.jpg" alt="" class="img-responsive"></a>
+         </div>
+
+         <div class="product-description-holder col-md-8">
+           <h2><a href="javascript:void(0)">Item's title</a></h2>
+
+           <p>
+             <b>Item's <descri></descri>ption:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+               ullamco laboris nisi ut aliquip ex ea commodo consequat.
+           </p>
+         </div>
+          <div class="col-md-4">
+              6th left<br/>Today 15.23
+          </div>
+          <div class="col-md-4">
+              <span class="glyphicon glyphicon-eye-open"></span>17<br/>Watchers
+          </div>
+          <div class="col-md-4">
+              $1234<br/>Current price
+          </div>
+       </li>
+          <li class="col-sm-6">
+            <div class="col-md-4">
+              <a href="javascript:void(0)"><img src="assets/img/02.jpg" alt="" class="img-responsive"></a>
+            </div>
+
+            <div class="col-md-8">
+              <h2><a href="javascript:void(0)">Item's title</a></h2>
+
+               <p>
+                  <b>Item's description:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+               </p>
+            </div>
+              <div class="col-md-4">
+                  6th left<br/>Today 15.23
+              </div>
+              <div class="col-md-4">
+                  <span class="glyphicon glyphicon-eye-open"></span>17<br/>Watchers
+              </div>
+              <div class="col-md-4">
+                  $1234<br/>Current price
+              </div>
+          </li>
+          <li class="col-sm-6">
+            <div class="col-md-4">
+               <a href="javascript:void(0)"><img src="assets/img/03.jpg" alt="" class="img-responsive"></a>
+            </div>
+
+            <div class="col-md-8">
+              <h2><a href="javascript:void(0)">Item's title</a></h2>
+
+              <p>
+                <b>Item's description:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+
+            <div class="col-md-4">
+                6th left<br/>Today 15.23
+            </div>
+            <div class="col-md-4">
+                <span class="glyphicon glyphicon-eye-open"></span>17<br/>Watchers
+            </div>
+            <div class="col-md-4">
+                $1234<br/>Current price
+            </div>
+          </li>
+        </ul>
+        <!-- / Featured Products list with thumbnails and description  -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <br/>
+        <a href="javascript:void(0)">Home</a> |
+        <a href="javascript:void(0)">Search</a> |
+        <a href="javascript:void(0)">About Us</a> |
+        <a href="javascript:void(0)">Terms of Service</a>
+        <br/><br/>
+    </footer>
+    <!-- / Footer -->
+
+</div>
+
+<script src="assets/js/jquery-2.1.0.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap-datepicker.js"></script>
+<script src="assets/js/bootstrap-slider.js"></script>
+<script>
+  $('#DPck').datepicker({autoclose:true});
+  $('#DPct').click(function(){
+    $('#DPck').datepicker('show');
+  });
+
+  $('#range').slider();
+</script>
+</body>
+</html>
+<!-- ea0066004a7179f92be5e4c033ead0cef1b7d0fa -->
