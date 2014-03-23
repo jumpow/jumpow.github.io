@@ -1,11 +1,11 @@
 {
   "name": "DefinitelyTyped",
   "homepage": "https://github.com/borisyankov/DefinitelyTyped",
-  "_release": "0854df3b0f",
+  "_release": "50ce2be840",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "0854df3b0f7187ae445453aaad2563a97b70df08"
+    "commit": "50ce2be8407ed885ddcaaf07cd197aaee3e83c06"
   },
   "_source": "git://github.com/borisyankov/DefinitelyTyped.git",
   "_target": "*",
